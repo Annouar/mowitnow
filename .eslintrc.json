@@ -1,0 +1,6 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "code": 130
+    }
+}

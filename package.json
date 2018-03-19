@@ -1,0 +1,22 @@
+{
+  "name": "mowitnow",
+  "version": "0.0.1",
+  "description": "My version of Xebia technical interview",
+  "main": "./lib/mowitnow.js",
+  "scripts": {
+    "pretest": "eslint --fix ./lib",
+    "test": "mocha"
+  },
+  "author": "Annouar",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "mocha": "^5.0.4"
+  }
+}
