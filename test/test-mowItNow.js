@@ -64,7 +64,6 @@ describe('mowItNow', () => {
         expect(worker.history).to.be.empty;
 
         expect(worker).to.be.an.instanceof(MowItNowWorker);
-        expect(worker).to.equal(this.worker);
       });
     });
 
